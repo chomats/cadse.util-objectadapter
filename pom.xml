@@ -1,0 +1,21 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <artifactId>fr.imag.adele.cadse.parent.osgi</artifactId>
+    <groupId>fr.imag.adele.cadse</groupId>
+    <version>2.3.0-SNAPSHOT</version>
+  </parent>
+  <groupId>fr.imag.adele.cadse</groupId>
+  <artifactId>util.objectadapter</artifactId>
+  <version>2.3.0-SNAPSHOT</version>
+  <name>fr.imag.adele.cadse.as.objectadapter</name>
+  <dependencies>
+  	<dependency>
+  		<groupId>fr.imag.adele.cadse</groupId>
+  		<artifactId>util</artifactId>
+  		<version>2.3.0-SNAPSHOT</version>
+  		<type>bundle</type>
+  		<scope>compile</scope>
+  	</dependency>
+  </dependencies>
+</project>
