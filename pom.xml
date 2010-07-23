@@ -8,7 +8,22 @@
   <groupId>fr.imag.adele.cadse</groupId>
   <artifactId>util.objectadapter</artifactId>
   <version>2.3.0-SNAPSHOT</version>
+  <packaging>bundle</packaging>
   <name>fr.imag.adele.cadse.as.objectadapter</name>
+  <build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.felix</groupId>
+				<artifactId>maven-bundle-plugin</artifactId>
+				<extensions>true</extensions>
+				<configuration>
+					<instructions>
+						<Export-Package>fr.imag.adele.cadse.objectadapter;version="${version.cadse}"</Export-Package>
+					</instructions>
+				</configuration>
+			</plugin>
+	</plugins>
+  </build>
   <dependencies>
   	<dependency>
   		<groupId>fr.imag.adele.cadse</groupId>
