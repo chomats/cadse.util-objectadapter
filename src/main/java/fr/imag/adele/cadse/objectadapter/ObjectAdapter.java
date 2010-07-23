@@ -15,8 +15,8 @@ public abstract class ObjectAdapter<T> {
 		this._ow = ow;
 	}
 	
-	final public T override(T... ow) {
+	final public <E> E override(T... ow) {
 		this._ow = ow;
-		return (T) this;
+		return (E) this;
 	}
 }
