@@ -10,6 +10,13 @@
   <version>2.3.0-SNAPSHOT</version>
   <packaging>bundle</packaging>
   <name>fr.imag.adele.cadse.as.objectadapter</name>
+
+        <scm>
+                <connection>scm:hg:ssh://hg@henry/${artifactId}</connection>
+                <developerConnection>scm:hg:ssh://hg@henry/${artifactId}</developerConnection>
+                <url>http://henry:8000/${artifactId}</url>
+        </scm>
+
   <build>
 		<plugins>
 			<plugin>
