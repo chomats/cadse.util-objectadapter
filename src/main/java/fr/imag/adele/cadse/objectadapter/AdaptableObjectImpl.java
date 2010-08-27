@@ -8,8 +8,9 @@ package fr.imag.adele.cadse.objectadapter;
 import fr.imag.adele.cadse.util.ArraysUtil;
 
 /**
+ * Implementation par default de AdaptableObject.
  * 
- * @author chomats
+ * @author <a href="http://cadse.imag.fr">cadse team</a>
  */
 public class AdaptableObjectImpl implements AdaptableObject {
 	ObjectAdapter<?>[]	_adaptObjects	= null;
